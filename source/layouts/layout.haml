@@ -6,6 +6,9 @@
     %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0' }
     %title= current_page.data.title || 'Project Title'
     = stylesheet_link_tag 'application'
+    %script{src: '//use.typekit.net/spa2swm.js'}
+    %script
+      try{Typekit.load();}catch(e){}
   %body{ class: page_classes }
     = yield
     = javascript_include_tag  'application'

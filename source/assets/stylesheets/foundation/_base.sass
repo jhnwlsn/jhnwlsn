@@ -6,7 +6,7 @@
 // *************************************
 
 html
-  background: $c-background
+  background: $c-dark
   color: $c-text
   font-family: $b-fontFamily
   font-size: $b-fontSize
@@ -20,7 +20,7 @@ body
 // -------------------------------------
 
 ul, p
-  margin-bottom: $b-space
+  margin-bottom: $b-space-m
   margin-top: 0
 
 li
@@ -34,22 +34,23 @@ h2, .h2,
 h3, .h3,
 h4, .h4
   font-family: $b-fontFamily-heading
-  font-weight: bold
+  font-weight: 700
   line-height: 1.2
-  margin-bottom: $b-space-xs
+  margin-bottom: $b-space-s
   margin-top: 0
 
 h1, .h1
-  font-size: 200%
+  color: $c-light
+  font-size: $b-fontSize-xl
 
 h2, .h2
-  font-size: 150%
+  font-size: $b-fontSize-l
 
 h3, .h3
-  font-size: 125%
+  font-size: $b-fontSize-m
 
 h4, .h4
-  font-size: 110%
+  font-size: $b-fontSize-s
 
 // -------------------------------------
 //   Inline Content
@@ -58,12 +59,12 @@ h4, .h4
 // ----- Links ----- //
 
 a
-  border-bottom: $b-border
-  color: $c-highlight
+  color: $c-accent
+  font-weight: 700
   text-decoration: none
   &:hover,
   &:focus
-    color: lighten($c-highlight, 5%)
+    color: lighten($c-accent, 10%)
 
 // ----- Images ----- //
 

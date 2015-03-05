@@ -1,0 +1,22 @@
+// *************************************
+//
+//   Button
+//   -> Rounded actions
+//
+// *************************************
+
+.btn
+  background: $c-accent
+  border-radius: $b-borderRadius
+  color: $c-light
+  display: inline-block
+  font-family: $b-fontFamily-heading
+  font-size: $b-fontSize-s
+  letter-spacing: 0.1rem
+  padding: $b-space-xs ($b-space-l * 1.5)
+  position: relative
+  text-transform: uppercase
+  &:hover,
+  &:focus
+    background: lighten($c-accent, 10%)
+    color: $c-light

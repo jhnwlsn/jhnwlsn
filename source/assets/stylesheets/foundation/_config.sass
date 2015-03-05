@@ -57,6 +57,7 @@ $b-lineHeight: 1.6
 
 $b-maxWidth: 80rem
 $b-maxWidth-s: 52rem
+$b-space-xs: 0.8rem
 $b-space-s: 1.2rem
 $b-space-m: 2rem
 $b-space-l: 2.5rem
@@ -70,8 +71,17 @@ $b-space-xl: 6rem
 
 // Breakpoints
 
-$b-break: 60rem
+$g-s: em(480px)
+$g-m: em(800px)
+$g-l: em(1024px)
 
 // Settings
 
-$g-gutter: 3.3333rem
+$g-columns: 12
+$g-defaults: 's' $g-s, 'm' $g-m, 'l' $g-l
+$g-gutter: 20px
+$g-silent: false
+
+// Selector
+
+$g-selector: if($g-silent, unquote("%"), unquote("."))

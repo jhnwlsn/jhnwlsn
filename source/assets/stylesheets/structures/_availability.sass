@@ -6,20 +6,25 @@
 // *************************************
 
 .availability
-  column-count: 1
+  column-count: 2
   column-gap: $b-space-s
-  +respond-to($g-s)
-    column-count: 2
+  margin-bottom: $b-space-m
   a, span
     box-sizing: border-box
     display: block
     font-family: $b-fontFamily-heading
+    font-size: $b-fontSize-xs
     letter-spacing: 0.15rem
     margin-bottom: $b-space-s
-    padding: $b-space-s
+    padding: $b-space-xs
     text-align: center
     text-transform: uppercase
     width: 100%
+    +respond-to($g-s)
+      font-size: $b-fontSize-s
+    +respond-to($g-m)
+      padding: $b-space-s
+      font-size: $b-fontSize
   a
     background: $c-accent
     color: $c-light

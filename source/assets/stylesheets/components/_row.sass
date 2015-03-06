@@ -6,6 +6,7 @@
 // *************************************
 
 .row
+  background: $c-light
   overflow: hidden
   padding: 0 $b-space-m
 
@@ -15,5 +16,11 @@
 
 // ----- Theme ----- //
 
-.row--invert
-  background: $c-light
+.row--dark
+  background: $c-dark
+  h2
+    border-bottom: 0
+    margin-bottom: $b-space-s
+    padding-bottom: 0
+    +respond-to($g-m)
+      margin-top: 0

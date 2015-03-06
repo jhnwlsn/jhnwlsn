@@ -45,8 +45,14 @@ h1, .h1
   font-size: $b-fontSize-xl
 
 h2, .h2
+  border-bottom: $b-borderWidth $b-borderStyle $c-border
   color: $c-dark
   font-size: $b-fontSize-l
+  margin-bottom: $b-space-l
+  margin-top: ($b-space-l * 1.5)
+  padding-bottom: $b-space-s
+  +respond-to($g-m)
+    margin-bottom: ($b-space-l * 1.5)
 
 h3, .h3
   color: $c-dark
@@ -66,7 +72,6 @@ hr
   border: none
   border-top: $b-border
   margin-top: ($b-space-l * 1.25)
-  padding-bottom: ($b-space-l * 1.25)
 
 // -------------------------------------
 //   Inline Content

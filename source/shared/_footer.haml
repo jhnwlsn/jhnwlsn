@@ -1,7 +1,7 @@
 %footer.footer
   .cell.well
     .g
-      .g-b.g-b--m--1of3
+      .g-b.g-b--s--1of2.g-b--m--1of3
         %a.logo{href: '/'}
           %h4 Designer &amp; Developer
           %h2 John Wilson
@@ -10,9 +10,17 @@
             %a{href: '/about'} About
           %li
             %a{href: '#'} Journal
-      .g-b.g-b--m--1of3
+      .g-b.g-b--s--1of2.g-b--m--1of3.fr
+        %h4 Colophon
+        %p
+          This site has been designed, developed, and maintained
+          by John Wilson. It is hosted on
+          <a href="https://pages.github.com/">GitHub Pages</a>
+          and set in Futura PT and Proxima Nova which are delivered
+          by <a href="https://typekit.com/">Typekit</a>.
+      .g-b.g-b--s--1of1.g-b--m--1of3.fr
         %h4 Compatriots
-        %ul
+        %ul.footer-compatriots
           %li= link_to 'Dan Denney', 'http://dandenney.com/'
           %li= link_to 'Drew Barontini', 'http://drewbarontini.com/'
           %li= link_to 'Drew Powers', 'http://dangodesign.net/'
@@ -22,11 +30,3 @@
           %li= link_to 'Justin Mezzell', 'http://justinmezzell.com/'
           %li= link_to 'Nick Walsh', 'http://nick-walsh.com/'
           %li= link_to 'Tim Dikun', 'https://twitter.com/tdikun'
-      .g-b.g-b--m--1of3
-        %h4 Colophon
-        %p
-          This site has been designed, developed, and maintained
-          by John Wilson. It is hosted on
-          <a href="https://pages.github.com/">GitHub Pages</a>
-          and set in Futura PT and Proxima Nova which are delivered
-          by <a href="https://typekit.com/">Typekit</a>.

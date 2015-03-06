@@ -8,6 +8,9 @@
 
 .bucket
   @extend .group
+  margin-bottom: $b-space-s
+  +respond-to($g-m)
+    margin-bottom: $b-space-m
 
 // -------------------------------------
 //   Modifiers
@@ -37,6 +40,8 @@
 // ----- Desktop Vertical ----- //
 
 .bucket--vertical
+  +respond-to($g-m)
+    margin-top: 0
   .bucket-content
     h3
       +respond-to($g-m)

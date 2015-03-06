@@ -6,15 +6,22 @@
 // *************************************
 
 .footer
+  background: $c-dark
   overflow: hidden
   padding: 0 $b-space-m
   a
     display: inline-block
-    font-size: $b-fontSize-m
+    font-size: $b-fontSize
     font-weight: 400
+    +respond-to($g-s)
+      font-size: ($b-fontSize * 1.25)
+    +respond-to($g-m)
+      font-size: $b-fontSize-m
   h4
     color: $c-light
     font-size: $b-fontSize
+    +respond-to($g-s)
+      margin-top: $b-space-l
   li
     margin-bottom: $b-space-xs
   p
@@ -49,4 +56,10 @@
 //   Scaffolding
 // -------------------------------------
 
-// .structure-scaffolding
+.footer-compatriots
+  column-count: 1
+  column-gap: $g-gutter
+  +respond-to($g-s)
+    column-count: 2
+  +respond-to($g-m)
+    column-count: 1

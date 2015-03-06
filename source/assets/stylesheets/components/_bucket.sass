@@ -21,6 +21,18 @@
   .bucket-content
     vertical-align: middle
 
+// ----- Desktop Vertical ----- //
+
+.bucket--vertical
+  .bucket-media
+    float: left
+    +respond-to($g-m)
+      float: none
+    img
+      max-width: 5rem
+      +respond-to($g-m)
+        max-width: 9rem
+
 // -------------------------------------
 //   Scaffolding
 // -------------------------------------

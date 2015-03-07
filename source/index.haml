@@ -71,24 +71,11 @@
       .g-b.g-b--s--1of2.g-b--m--2of3
         %h2.mbm Recent Entries
         .g
-          .g-b.g-b--m--1of2
-            %h3
-              = link_to 'Risus Purus Porta Ligula Tellus', '#', class: 'ellipsis'
-            %h4 February 20, 2015
-            %p
-              Duis mollis, est non commodo luctus, nisi erat
-              porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis atoque penatibus et magnis dis
-              parturient montes.
-          .g-b.g-b--m--1of2
-            %h3
-              = link_to 'Porta Ligula Tellus', '#', class: 'db ellipsis'
-            %h4 February 20, 2015
-            %p
-              Duis mollis, est non commodo luctus, nisi erat
-              porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis atoque penatibus et magnis dis
-              parturient montes.
+          - blog.articles[0..1].each do |entry|
+            .g-b.g-b--m--1of2
+              %h3= link_to entry.title, entry.url, class: "ellipsis"
+              %h4= entry.date
+              %p= entry.summary(155, '...')
         %a.btn{href: '/journal'} Visit the Journal
 
 = partial 'shared/footer'

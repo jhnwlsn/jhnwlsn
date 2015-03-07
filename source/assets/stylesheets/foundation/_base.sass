@@ -10,8 +10,12 @@ html
   background: $c-dark
   color: $c-text
   font-family: $b-fontFamily
-  font-size: $b-fontSize
+  font-size: 12px
   line-height: $b-lineHeight
+  +respond-to($g-s)
+    font-size: 14px
+  +respond-to($g-m)
+    font-size: $b-fontSize
 
 body
   font-size: 100%

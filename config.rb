@@ -23,12 +23,14 @@ activate :automatic_image_sizes
 
 # ----- Blog ----- #
 
-# activate :blog do |blog|
-#   blog.layout = "layout_article"
-#   blog.permalink = "{title}"
-#   blog.prefix = "blog"
-#   blog.sources = "articles/{title}.html"
-# end
+activate :blog do |journal|
+  journal.layout = "layout_entry"
+  journal.paginate = true
+  journal.per_page = 3
+  journal.permalink = "/{title}"
+  journal.prefix = "journal"
+  journal.sources = "entries/{year}/{title}/article.html"
+end
 
 # ----- Directories for assets (needs to be activated after blog) ----- #
 

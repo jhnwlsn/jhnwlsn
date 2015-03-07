@@ -4,5 +4,7 @@ source 'http://rubygems.org'
 
 gem 'middleman'
 gem 'middleman-autoprefixer'
+gem 'middleman-blog'
 gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-livereload'
+gem 'nokogiri'

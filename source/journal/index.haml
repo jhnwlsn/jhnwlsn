@@ -1,0 +1,17 @@
+.row.row--dark
+  .cell.well
+    %a.logo{href: '/'}
+      %h4 Designer &amp; Developer
+      %h2 John Wilson
+    %h1.mtxl.ptxl.tca Journal
+
+.row
+  .cell.well
+    .g
+      - blog.articles.each do |entry|
+        .g-b.g-b--m--1of2
+          %h2.mbm= link_to entry.title, entry.url, class: "ellipsis"
+          %h4.mbm= entry.date
+          %p= entry.summary(300, '...')
+
+= partial 'shared/footer'

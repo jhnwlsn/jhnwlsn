@@ -4,21 +4,27 @@
       %h4 Designer &amp; Developer
       %h2 John Wilson
     .g.mtxl.ptxl
-      .g-b.g-b--m--1of2
+      .g-b.g-b--m--2of3
         .bucket.bucket--horizontal
           .bucket-media
             = image_tag(image_path("profile.jpg"))
           .bucket-content
             %h2.mtf.tca About John
-            %p.mbf.tci
+            %p.mbs.tci
               John is a multi‑disciplinary designer and developer
               based in Orlando currently working at
               <a href="http://madewithenvy.com/">Envy</a> and taking
               on select freelance projects. Between Envy and
               freelance, he helps plan, design and build modern web
-              applications and websites for both large brands
-              and small businesses alike.
-      .g-b.g-b--m--1of2
+              applications and websites for large brands
+              and small businesses.
+            %p.mbf.tci
+              As a daily routine, John spends time with his
+              growing family and bicycles to and from Envy.
+              Because cycling is such a passion of his, he enjoys
+              taking on projects that directly or indirectly
+              involve the great outdoors.
+      .g-b.g-b--m--1of3
         %h2.tca Experience
         %p.mbs.tci
           Through both Envy and freelance projects, John has had
@@ -30,18 +36,87 @@
 .row
   .cell.well
     .g
-      .g-b.g-b--m--1of2.fr
+      .g-b.g-b--m--1of2
+        %h2 Services
+        .bucket
+          .bucket-media
+            = image_tag(image_path("service-design.svg"))
+          .bucket-content
+            %h3 UI / UX Design
+            %p.mbs
+              Duis mollis, est non commodo luctus, nisi erat
+              porttitor ligula, eget lacinia odio sem nec elit. Cum
+              sociis atoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus. Cum sociis natoque
+              penatibus et.
+            .g
+              .g-b.g-b--1of2.g-b--m--1of1.g-b--l--1of2
+                %h3.tss Capabilities
+                %ul
+                  %li Web Apps
+                  %li Mobile Apps
+                  %li Websites
+                  %li Smartwear
+              .g-b.g-b--1of2.g-b--m--1of1.g-b--l--1of2
+                %h3.tss Tools
+                %ul
+                  %li Pencil &amp; Paper
+                  %li Photoshop
+                  %li Illustrator
+                  %li Sketch
+        .bucket
+          .bucket-media
+            = image_tag(image_path("service-development.svg"))
+          .bucket-content
+            %h3 Development
+            %p.mbs
+              Duis mollis, est non commodo luctus, nisi erat
+              porttitor ligula, eget lacinia odio sem nec elit. Cum
+              sociis atoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus. Cum sociis natoque
+              penatibus et.
+            .g
+              .g-b.g-b--1of2.g-b--m--1of1.g-b--l--1of2
+                %h3.tss Capabilities
+                %ul
+                  %li Mobile Prototypes
+                  %li Web Apps
+                  %li Websites
+                  %li Portfolios
+              .g-b.g-b--1of2.g-b--m--1of1.g-b--l--1of2
+                %h3.tss Tools
+                %ul
+                  %li Haml (HTML)
+                  %li Sass (CSS)
+                  %li= link_to "Middleman", "https://middlemanapp.com/"
+                  %li Ruby on Rails
+                  %li CMSs
+        .bucket
+          .bucket-media
+            = image_tag(image_path("service-consulting.svg"))
+          .bucket-content
+            %h3 Consulting
+            %p
+              Duis mollis, est non commodo luctus, nisi erat
+              porttitor ligula, eget lacinia odio sem nec elit. Cum
+              sociis atoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus. Cum sociis natoque
+              penatibus et.
+
+      .g-b.g-b--m--1of2
         %h2 Hire John
         %h3 Scheduling
         %p
           John likes to book his available time into one week
-          increments. Find out John’s available weeks and book
+          increments. One week is equal to aproximately 10 hours
+          of work, which is also the minimum amount of hours
+          per project. Find out John’s available weeks and book
           him using the grid below. Simply select the date you
           would like your project to start.
         %h3 Rates
         %p
           All work is billed at <strong>$125 per hour</strong>
-          with consulting services at a fixed price. If your
+          with consulting&#8209;only services at a fixed price. If your
           project requires a fixed price, a non‑refundable down
           payment will be needed in order to reserve time.
           Otherwise, all time will need to be booked before
@@ -57,56 +132,25 @@
         %h3 Availability
         %p
           Simply click on an available time that you’d like to
-          request to book. If this format doesn’t work for you,
-          simply write an email to
+          request to book. If this format doesn’t work for you
+          or your project is expected to begin at a later date
+          than shown, simply write to
           = link_to 'john@j&#8209;wilson.com', 'mailto:john@j-wilson.com'
-          and mention the date you would like work to begin and
-          other project details.
+          and mention the date you would like work to begin.
         .availability
           - data.availability.each do |a|
             - if a.available
               = link_to a.date, "mailto:john@j-wilson?subject=I'd like to hire you the week of #{a.date}"
             - else
               %span= a.date
-      .g-b.g-b--m--1of2
-        %h2 Services
-        .bucket
-          .bucket-media
-            = image_tag(image_path("service-design.svg"))
-          .bucket-content
-            %h3 UI / UX Design
-            %p.mbl
-              Duis mollis, est non commodo luctus, nisi erat
-              porttitor ligula, eget lacinia odio sem nec elit. Cum
-              sociis atoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus. Cum sociis natoque
-              penatibus et.
-        .bucket
-          .bucket-media
-            = image_tag(image_path("service-development.svg"))
-          .bucket-content
-            %h3 Development
-            %p.mbl
-              Duis mollis, est non commodo luctus, nisi erat
-              porttitor ligula, eget lacinia odio sem nec elit. Cum
-              sociis atoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus. Cum sociis natoque
-              penatibus et.
-        .bucket
-          .bucket-media
-            = image_tag(image_path("service-consulting.svg"))
-          .bucket-content
-            %h3 Consulting
-            %p
-              Duis mollis, est non commodo luctus, nisi erat
-              porttitor ligula, eget lacinia odio sem nec elit. Cum
-              sociis atoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus. Cum sociis natoque
-              penatibus et.
-        %h2.mbl.mtl Contact &amp; Social
+    .g.cell
+      .g-b.g-b--s--1of2
+        %h2.mbs.mtl Contact
         %p.mbf Email John at:
         = link_to 'john@j-wilson.com', 'mailto:john@j-wilson.com', class: 'tfh tsm'
-        %p.mbs.mtl Find John at any of these digital outlets:
+      .g-b.g-b--s--1of2
+        %h2.mbs.mtl Social
+        %p.mbf Find John at any of these digital outlets:
         .social
           = link_to "https://twitter.com/jhnwlsn" do
             = image_tag(image_path("social-twitter.svg"))

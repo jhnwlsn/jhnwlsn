@@ -1,2 +1,13 @@
 = wrap_layout :layout do
-  = yield
+  .row.row--dark
+    .cell.cell--s.well
+      %a.logo{href: '/'}
+        %h4 Designer &amp; Developer
+        %h2 John Wilson
+      %h1.mtxl.ptxl Title
+
+.row
+  .cell.cell--s.well.well--article
+    = yield
+
+= partial "shared/footer"

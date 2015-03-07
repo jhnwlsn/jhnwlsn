@@ -106,9 +106,13 @@
         %h2.mbl.mtl Contact &amp; Social
         %p.mbf Email John at:
         = link_to 'john@j-wilson.com', 'mailto:john@j-wilson.com', class: 'tfh tsm'
-        %p.mbf.mtl Find John at any of these digital outlets:
-        = link_to 'Twitter', '#'
-        = link_to 'Dribbble', '#'
-        = link_to 'GitHub', '#'
+        %p.mbs.mtl Find John at any of these digital outlets:
+        .social
+          = link_to "https://twitter.com/jhnwlsn" do
+            = image_tag(image_path("social-twitter.svg"))
+          = link_to "https://dribbble.com/jhnwlsn" do
+            = image_tag(image_path("social-dribbble.svg"))
+          = link_to "https://github.com/jhnwlsn" do
+            = image_tag(image_path("social-github.svg"))
 
 = partial 'shared/footer'

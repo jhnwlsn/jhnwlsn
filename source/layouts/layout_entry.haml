@@ -4,23 +4,27 @@
       %a.logo{href: '/'}
         %h4 Designer &amp; Developer
         %h2 John Wilson
-      %h4.mtxl= link_to "Journal Entry", "/journal", class: "tca"
+      %h4.mtxl.ptxl
+        = link_to "Home", "/"
+        %span &bull;
+        = link_to "Journal", "/journal"
+        %span &bull; Entry
       %h1= current_article.title
 
 .row
   .cell.well.well--article
-    %h4= current_article.date.strftime('%B %e, %Y')
-    %hr.mbl.mtf
     .g
       .g-b.g-b--m--2of3
         %article.article
+          %h4= current_article.date.strftime('%B %e, %Y')
+          %hr.mbl.mtf
           = yield
       .g-b.g-b--m--1of3
         .bucket.bucket--vertical
           .bucket-media
             = image_tag(image_path("profile.jpg"))
           .bucket-content
-            %h3.mbm= link_to "About John", "/about"
+            %h3.mbs= link_to "About John", "/about"
             %p
               John is a multi‑disciplinary designer and developer
               based in Orlando currently working at

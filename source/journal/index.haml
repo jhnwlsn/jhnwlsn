@@ -12,6 +12,6 @@
         .g-b.g-b--m--1of2
           %h2.mbm= link_to entry.title, entry.url, class: "ellipsis"
           %h4.mbm= entry.date.strftime('%B %e, %Y')
-          = entry.summary(300, '...')
+          = entry.summary(200, '...')
 
 = partial 'shared/footer'

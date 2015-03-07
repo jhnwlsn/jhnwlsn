@@ -1,6 +1,7 @@
 ---
 title: Montgomery Branding
 date: 2012/04/01
+published: false
 ---
 During my schooling at [Full Sail University](http://online.fullsail.edu/), we were tasked to recreate our current state's capitol's branding. At the time, I was living in South Alabama which made my subject matter the city of Montgomery. Before the final designs were nailed down, I went through an extensive process of research, concepts after concepts, meticulous design and ended the entire project by creating some branding examples.
 
@@ -10,7 +11,7 @@ Several hours of research into the city's history and current trends led to find
 ## Concepts
 After research, I picked up a pencil and paper which helped me get my ideas out more quickly. These are a small sample of some concepts I came up with:
 
-![logo sketch examples](/assets/img/blog/montgomery/montgomery-sketches.jpg)
+![logo sketch examples](images/montgomery-sketches.jpg)
 
 As you can see, some of these marks hit both the traditional southern and business driven qualities of Montgomery, but none  represented both qualities as well as the deer head.
 
@@ -20,17 +21,17 @@ Then came the meticulous illustration of the deer head and design for supporting
 <br />
 <br />
 <br />
-![montgomery mark logo](/assets/img/blog/montgomery/montgomery-mark.jpg)
-![montgomery mark logo](/assets/img/blog/montgomery/montgomery-typography.jpg)
+![montgomery mark logo](images/montgomery-mark.jpg)
+![montgomery mark logo](images/montgomery-typography.jpg)
 
 ### Legal Seal
 One of the most used element of a city's brand is its legal seal. Similarly to [guilloché patterns](http://en.wikipedia.org/wiki/Guilloche), excessive details help to keep the seal from being reproduced and/or manipulated without visual side effects.
 
-![montgomery legal seal](/assets/img/blog/montgomery/montgomery-featured.jpg)
+![montgomery legal seal](images/montgomery-featured.jpg)
 
 ## Representation
 To finish off the project, I created a few examples of what the brand would look like by mocking up some stationery:
 
-![montgomery stationery](/assets/img/blog/montgomery/montgomery-angle.jpg)
-![montgomery stationery](/assets/img/blog/montgomery/montgomery-cards.jpg)
-![montgomery stationery](/assets/img/blog/montgomery/montgomery-stationery.jpg)
+![montgomery stationery](images/montgomery-angle.jpg)
+![montgomery stationery](images/montgomery-cards.jpg)
+![montgomery stationery](images/montgomery-stationery.jpg)

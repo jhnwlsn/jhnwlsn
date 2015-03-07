@@ -20,7 +20,9 @@ What if we decided to take the control back from computers and machines? Suppose
 With Twitter, users are fed a non-stop list of items to read. Tweet after tweet contains words, links and pictures to consume, and many people feel the stressful need to consume it all. This problem could easily be fixed by creating a small “white space” between every certain number of tweets. This not only gives the viewer easy-to-read chunks of tweets, but it also provides a respite before continuing down the list of tweets.
 
 *Example of “white space” between tweets.*
-![twitter white space example](/assets/img/blog/rhythm-pulse/twitter-example.jpg)
+
+![twitter white space example](images/twitter-example.jpg)
+
 * *It’s important to note that this doesn’t create any hiccups in usability by keeping content out of reach for the user. If a user is intentional about it, they can simply skip over each space and continue down the list.*
 
 ***Also note that this could easily be confusing when tweets are truncated by the Twitter app, but this is just a theory and would require much more thought before actual implementation.*

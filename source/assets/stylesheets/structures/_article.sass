@@ -12,3 +12,26 @@
     font-size: 18px
   +respond-to($g-m)
     font-size: 22px
+  h2
+    border-bottom: 0
+    padding-bottom: 0
+  h3
+    font-size: $b-fontSize-m
+    letter-spacing: 0
+    margin-top: ($b-space-l * 1.5)
+    text-transform: inherit
+  h4
+    color: $c-text
+    font-size: $b-fontSize
+    margin-top: ($b-space-l * 1.5)
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+.article-date
+  border-bottom: $b-borderWidth darken($c-white, 5%) $b-borderStyle
+  color: $c-text !important
+  margin-bottom: $b-space-l
+  margin-top: 0 !important
+  padding-bottom: $b-space-s

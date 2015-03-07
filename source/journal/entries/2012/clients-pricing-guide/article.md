@@ -10,7 +10,7 @@ This subject can be very sensitive so as you read this article, keep in mind tha
 
 Estimates have the possibility to leave both a good and bad taste in your mouth. A good taste because of the excitement of future changes and new products; a bad taste because of how much those changes might end up costing. First and foremost, all price estimations should have an explanation attached to them. Whether it is in a letter or contract format, either one should be able to clearly explain all the factors that go into the price. The worst, in my opinion, is when the numbers are presented without any explanation. Clients, if you have a new project that might seem a little high, I would strongly encourage you to get an explanation for the price from the designer if you have not gotten one. This gives the designers a chance to explain why certain things cost the amount they do. You never know, the explanation might change your mind and you could end up with a really great final product. Designers, please make sure you can explain why the cost is the way it is. I know that the price might not seem high to you but if you can’t explain why it’s priced in a certain way, you probably shouldn’t charge that much.
 
-## THE FACTORS
+## The Factors
 
 Whether in contract or letter, the explanation still might be unclear. This could result from a bad explanation or just an unfamiliarity with the graphic design process. For me, there are generally five main factors that are taken into account for a project: designer experience and quality, project scope, turnaround time, miscellaneous factors including location, availability, etc. and most importantly the workload that will be placed on the designer for the project. Let me take a short minute to explain each of these:
 

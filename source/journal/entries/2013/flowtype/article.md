@@ -1,6 +1,7 @@
 ---
 title: FlowType.JS
 date: 2013/08/20
+published: false
 ---
 Ideally, the most legible typography contains [between 45 and 75 characters per line](http://webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/). This is difficult to accomplish for ***all*** screen widths with only CSS media-queries. FlowType.JS eases this difficulty by changing the font-size&mdash;and subsequently the line-height&mdash;based on a specific element's width. This allows for a perfect character count per line at ***any*** screen width.
 

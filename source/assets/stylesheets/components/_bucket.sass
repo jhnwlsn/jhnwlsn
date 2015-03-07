@@ -47,13 +47,8 @@
       +respond-to($g-m)
         margin-top: $b-space-m
   .bucket-media
-    float: left
     +respond-to($g-m)
       float: none
-    img
-      max-width: 5rem
-      +respond-to($g-m)
-        max-width: 8rem
 
 // -------------------------------------
 //   Scaffolding
@@ -68,13 +63,15 @@
 // ----- Media ----- //
 
 .bucket-media
-  float: left
-  margin-right: $b-space-s
+  float: none
+  margin-bottom: $b-space-m
+  margin-right: $b-space-m
+  +respond-to($g-s)
+    float: left
+    margin-bottom: 0
   +respond-to($g-m)
-    margin-right: $b-space-m
+    margin-right: $b-space-l
   > img
     border-radius: 50%
     display: block
-    max-width: 5rem
-    +respond-to($g-m)
-      max-width: 8rem
+    max-width: 8rem

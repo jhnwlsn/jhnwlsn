@@ -24,7 +24,7 @@
       margin-top: $b-space-l
   li
     display: inline-block
-    margin-bottom: $b-space-xs
+    margin-bottom: 0
     margin-right: $b-space-s
     +respond-to($g-s)
       display: block
@@ -67,3 +67,34 @@
     column-count: 2
   +respond-to($g-m)
     column-count: 1
+
+.footer-copyright,
+.footer-social
+  position: absolute
+
+.footer-copyright
+  bottom: -6rem
+  left: 0
+  +respond-to($g-s)
+    bottom: -2.25rem
+    left: auto
+    right: 0
+  +respond-to($g-m)
+    bottom: 2rem
+  p
+    margin-bottom: 0
+
+.footer-social
+  bottom: -3rem
+  left: 0
+  +respond-to($g-s)
+    bottom: -3rem
+  +respond-to($g-m)
+    bottom: 1.5rem
+  a
+    display: inline-block
+    margin-right: $b-space-s
+    width: 2rem
+    &:hover,
+    &:focus
+      opacity: 0.75

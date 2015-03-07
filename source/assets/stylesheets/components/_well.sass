@@ -17,3 +17,10 @@
 
 .well--article
   margin: ($b-space-xl * 0.75) auto $b-space-m
+
+.well--footer
+  margin-bottom: ($b-space-xl * 1.5)
+  +respond-to($g-s)
+    margin-bottom: $b-space-xl
+  +respond-to($g-m)
+    margin-bottom: $b-space-l

@@ -1,5 +1,5 @@
 %footer.footer
-  .cell.well
+  .cell.well.well--footer
     .g
       .g-b.g-b--s--1of2.g-b--m--1of3
         %a.logo{href: '/'}
@@ -31,3 +31,15 @@
           %li= link_to 'Justin Mezzell', 'http://justinmezzell.com/'
           %li= link_to 'Nick Walsh', 'http://nick-walsh.com/'
           %li= link_to 'Tim Dikun', 'https://twitter.com/tdikun'
+    .footer-social
+      = link_to "https://twitter.com/jhnwlsn" do
+        = image_tag(image_path("social-twitter.svg"))
+      = link_to "https://dribbble.com/jhnwlsn" do
+        = image_tag(image_path("social-dribbble.svg"))
+      = link_to "https://github.com/jhnwlsn" do
+        = image_tag(image_path("social-github.svg"))
+    .footer-copyright
+      %p
+        &copy;
+        = Time.now.strftime('%Y')
+        All Rights Reserved.

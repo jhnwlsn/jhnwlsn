@@ -25,8 +25,6 @@ activate :automatic_image_sizes
 
 activate :blog do |journal|
   journal.layout = "layout_entry"
-  journal.paginate = true
-  journal.per_page = 3
   journal.permalink = "/{title}"
   journal.prefix = "journal"
   journal.sources = "entries/{year}/{title}/article.html"

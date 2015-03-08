@@ -19,26 +19,11 @@ What if we decided to take the control back from computers and machines? Suppose
 ### The list/feed
 With Twitter, users are fed a non-stop list of items to read. Tweet after tweet contains words, links and pictures to consume, and many people feel the stressful need to consume it all. This problem could easily be fixed by creating a small “white space” between every certain number of tweets. This not only gives the viewer easy-to-read chunks of tweets, but it also provides a respite before continuing down the list of tweets.
 
+![twitter white space example](images/twitter-example.jpg)
 *Example of “white space” between tweets.*
 
-![twitter white space example](images/twitter-example.jpg)
-
-* *It’s important to note that this doesn’t create any hiccups in usability by keeping content out of reach for the user. If a user is intentional about it, they can simply skip over each space and continue down the list.*
-
-***Also note that this could easily be confusing when tweets are truncated by the Twitter app, but this is just a theory and would require much more thought before actual implementation.*
-
 ## The large form
-Large forms are usually a big no-no for usability, but sometimes they are necessary. For example, applying for an apartment online would require several form fields with many marked as “required.” If the designer of the form simply put a few visual breaks between several chunks of form fields, it could create the pulse and rhythm pattern directly within the form. A possible example of a “form break”:
-
-
-<div class="example">
-{input element}<br /><br />
-Excellent! You’re about halfway done! We’ve saved your work up until this point, so feel free to take a break. We will be right here when you get back.<br /><br />
-{input element}
-</div>
-
-
-*Again, the user can decide to simply continue on with the form, but if the user wasn’t purposely trying to quickly fill out the form, this might be a welcome sight.
+Large forms are usually a big no-no for usability, but sometimes they are necessary. For example, applying for an apartment online would require several form fields with many marked as “required.” If the designer of the form simply put a few visual breaks between several chunks of form fields, it could create the pulse and rhythm pattern directly within the form.
 
 ## In closing…
 Again, this concept is just a thought. Each idea would need to be thought through in more depth before actually incorporating into designs.

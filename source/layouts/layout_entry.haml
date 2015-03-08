@@ -25,12 +25,28 @@
           .bucket-content
             %h3.mbs= link_to "About John", "/about"
             %p
-              John is a multi‑disciplinary designer and developer
+              John is a multi‑disciplinary designer and developer
               based in Orlando currently working at
-              <a href="http://madewithenvy.com/">Envy</a> and taking
-              on select freelance projects. Between Envy and
-              freelance, he helps plan, design and build modern web
-              applications and websites for both large brands
-              and small businesses alike.
+              <a href="http://madewithenvy.com/">Envy</a> and
+              taking on select freelance projects. Between Envy
+              and freelance, he helps plan, design and build
+              modern web applications and websites for large
+              brands and small businesses.
+
+.row
+  .cell.cell--s.well.tac
+    %h1.mtxl.tcd What do you think?
+    %p
+      John is available on several social media outlets, checks
+      them each regularly and always welcomes a new face! If you
+      want to connect with him, ask questions, or anything else,
+      go ahead, reach out...
+    .social.mbxl
+      = link_to "https://twitter.com/jhnwlsn" do
+        = image_tag(image_path("social-twitter.svg"))
+      = link_to "https://dribbble.com/jhnwlsn" do
+        = image_tag(image_path("social-dribbble.svg"))
+      = link_to "https://github.com/jhnwlsn" do
+        = image_tag(image_path("social-github.svg"))
 
 = partial "shared/footer"

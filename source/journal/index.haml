@@ -13,5 +13,6 @@
           %h2.mbm= link_to entry.title, entry.url, class: "ellipsis"
           %h4.mbm= entry.date.strftime('%B %e, %Y')
           = entry.summary(160, '...')
+          = link_to "Read more", entry.url, class: "btn"
 
 = partial 'shared/footer'

@@ -1,24 +1,20 @@
-- date: March 16—20
+- date: March
   available: false
-- date: March 23—27
+- date: April
   available: false
-- date: Mar 30—Apr 3
+- date: May
+  available: true
+- date: June
+  available: true
+- date: July
+  available: true
+- date: August
   available: false
-- date: April 6—10
+- date: September
+  available: false
+- date: October
   available: true
-- date: April 13—17
+- date: November
   available: true
-- date: April 20—24
-  available: true
-- date: Apr 27—May 1
-  available: true
-- date: May 4—8
-  available: true
-- date: May 11—15
-  available: true
-- date: May 18—22
-  available: true
-- date: May 25—29
-  available: true
-- date: June 1—5
-  available: true
+- date: December
+  available: false

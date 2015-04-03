@@ -3,7 +3,7 @@
 - date: April
   available: false
 - date: May
-  available: true
+  available: false
 - date: June
   available: true
 - date: July

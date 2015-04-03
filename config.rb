@@ -17,20 +17,7 @@ set :fonts_dir, 'assets/fonts'
 
 activate :automatic_image_sizes
 
-# --------------------------------------
-#   Content
-# --------------------------------------
-
-# ----- Blog ----- #
-
-activate :blog do |journal|
-  journal.layout = "layout_entry"
-  journal.permalink = "/{title}"
-  journal.prefix = "journal"
-  journal.sources = "entries/{year}/{title}/article.html"
-end
-
-# ----- Directories for assets (needs to be activated after blog) ----- #
+# ----- Directories for assets ----- #
 
 activate :directory_indexes
 

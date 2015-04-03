@@ -64,28 +64,4 @@
               everything on track. There are many different ways
               his consulting services can&nbsp;help&nbsp;you.
 
-.row.row--white
-  .cell.well
-    .g
-      .g-b.g-b--s--1of2.g-b--m--1of3
-        %h2.mbm About John
-        %p
-          John is a multi‑disciplinary designer and developer
-          based in Orlando currently working at
-          <a href="http://madewithenvy.com/">Envy</a> and
-          taking on select freelance projects. Between Envy
-          and freelance, he helps plan, design and build
-          modern web applications and websites for large
-          brands and small businesses.
-        %a.btn{href: '/about'} Learn More
-      .g-b.g-b--s--1of2.g-b--m--2of3
-        %h2.mbm Recent Entries
-        .g
-          - blog.articles[0..1].each do |entry|
-            .g-b.g-b--m--1of2
-              %h3= link_to entry.title, entry.url, class: "ellipsis"
-              %h4= entry.date.strftime('%B %e, %Y')
-              = entry.summary(135, '...')
-        %a.btn{href: '/journal'} Visit the Journal
-
 = partial 'shared/footer'

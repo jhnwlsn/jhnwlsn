@@ -157,7 +157,7 @@ title: John Wilson || About &amp; Hire
         .availability
           - data.availability.each do |a|
             - if a.available
-              = link_to a.date, "mailto:john@j-wilson?subject=I'd like to hire you the week of #{a.date}"
+              = link_to a.date, "mailto:john@j-wilson?subject=I'd like to hire you for the month of #{a.date}"
             - else
               %span= a.date
 

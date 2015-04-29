@@ -1,5 +1,3 @@
-- date: March
-  available: false
 - date: April
   available: false
 - date: May
@@ -18,3 +16,5 @@
   available: true
 - date: December
   available: false
+- date: January
+  available: true

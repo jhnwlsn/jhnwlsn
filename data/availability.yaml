@@ -5,13 +5,13 @@
 - date: May
   available: false
 - date: June
-  available: true
+  available: false
 - date: July
-  available: true
+  available: false
 - date: August
   available: false
 - date: September
-  available: false
+  available: true
 - date: October
   available: true
 - date: November

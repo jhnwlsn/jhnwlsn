@@ -39,26 +39,10 @@
     padding-left: 0
 
 // -------------------------------------
-//   Modifiers
-// -------------------------------------
-
-// .structure--modifier
-
-// -------------------------------------
-//   States
-// -------------------------------------
-
-// .structure.is-state
-
-// -------------------------------------
-//   Context
-// -------------------------------------
-
-// .has-structure
-
-// -------------------------------------
 //   Scaffolding
 // -------------------------------------
+
+// ----- Compatriots ----- //
 
 .footer-compatriots
   column-count: 1
@@ -68,9 +52,15 @@
   +respond-to($g-m)
     column-count: 1
 
+// ----- Misc Info ----- //
+
+// Both
+
 .footer-copyright,
 .footer-social
   position: absolute
+
+// Copyright
 
 .footer-copyright
   bottom: -6rem
@@ -84,6 +74,8 @@
   p
     color: lighten($c-dark, 15%)
     margin-bottom: 0
+
+// Social
 
 .footer-social
   bottom: -3rem

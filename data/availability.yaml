@@ -1,3 +1,15 @@
+- date: October
+  available: false
+- date: November
+  available: false
+- date: December
+  available: false
+- date: January
+  available: false
+- date: February
+  available: false
+- date: March
+  available: false
 - date: April
   available: false
 - date: May
@@ -6,15 +18,7 @@
   available: false
 - date: July
   available: false
-- date: August
-  available: false
-- date: September
-  available: true
-- date: October
-  available: true
-- date: November
-  available: true
-- date: December
-  available: false
-- date: January
-  available: true
+# - date: August
+#   available: false
+# - date: September
+#   available: false
